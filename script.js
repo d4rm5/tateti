@@ -48,7 +48,6 @@ const rFilas = () => {
 		for (let i = 0; i < 3; i++) {
 			array.push(m[i][j]);
 			pintar.push(codigo[i][j]);
-			console.log(pintar);
 		}
 	    if (array[0] === array[1] && array[1] === array[2] && array[0] !== '') {
 	    	pintarWin(pintar)
