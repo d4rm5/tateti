@@ -1,0 +1,64 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #00000055;
+}
+
+.contenedor-cajas {
+	display: grid;
+	grid-template-columns: repeat(3, 100px);
+	grid-template-rows: repeat(3, 100px);
+	grid-gap: 1px;
+}
+
+.caja {
+	background: #000000AA;
+	color: #FFF;
+	font-size: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.caja:hover {
+	background: #55555566;
+}
+
+.boton {
+	outline: none;
+	border: none;
+	font-size: 2rem;
+	padding: 1rem 2rem;
+	margin: 4rem;
+	color: #FFF;
+	background: #000000AA;
+}
+
+.boton:hover {
+	color: #000;
+	background: #FFFFFFAA;
+}
+
+.ganador {
+	background: #55FF5555;
+}
+
+.ganador:hover {
+	background: #55FF55AA;
+}
